@@ -1,11 +1,12 @@
 <script setup>
 import { ref } from 'vue'
 import { basicMsg } from '../plugins/Notify'
+import { ConstantsNotify } from '../constants/ConstantsNotify'
 
 const leftDrawerOpen = ref(false)
 
 function message () {
-  basicMsg('Success', 'info', 'info', 'center', 1000)
+  basicMsg(ConstantsNotify.MSG_TEST, ConstantsNotify.ICON_INFO, ConstantsNotify.COLOR_SKY_BLUE, ConstantsNotify.POS_TOP, 1000)
 }
 </script>
 
@@ -36,7 +37,7 @@ function message () {
     </q-header>
 
     <q-drawer
-        v-if="leftDrawerOpen"
+        v-model="leftDrawerOpen"
         show-if-above
         :width="200"
         :breakpoint="400"
