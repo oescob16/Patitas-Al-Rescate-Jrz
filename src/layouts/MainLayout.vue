@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { basicMsg } from '../plugins/Notify'
-import { ConstantsNotify } from '../constants/ConstantsNotify'
+import * as ConstantsNotify from '../constants/ConstantsNotify'
 
 const leftDrawerOpen = ref(false)
 

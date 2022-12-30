@@ -1,29 +1,27 @@
-export class ConstantsNotify {
-    // Message
-    public MSG_TEST : string = 'Test Purposes'
-    public MSG_SUCCESS : string = 'Action completed successfully!'
-    public MSG_FAIL : string = 'Action failed!'
-    public MSG_WARNING : string = 'Warning, be careful!'
-    // Colors
-    public COLOR_GREEN : string = 'positive'
-    public COLOR_RED : string = 'negative'
-    public COLOR_YELLOW : string = 'warning'
-    public COLOR_SKY_BLUE : string = 'info'
-    public COLOR_GREY : string = 'grey-8'
-    public COLOR_PURPLE : string = 'purple'
-    public COLOR_TEAL : string = 'teal'
-    // Icon
-    public ICON_THUMB_UP : string = 'thumb_up'
-    public ICON_WARNING : string = 'warning'
-    public ICON_INFO : string = 'info'
-    // Position
-    public POS_TOP_LEFT : string = 'top-left'
-    public POS_TOP : string = 'top'
-    public POS_TOP_RIGHT : string = 'top-right'
-    public POS_LEFT : string = 'left'
-    public POS_CENTER : string = 'center'
-    public POS_RIGHT : string = 'right'
-    public POS_BOTTOM_LEFT : string = 'bottom-left'
-    public POS_BOTTOM : string = 'bottom'
-    public POS_BOTTOM_RIGHT : string = 'bottom-right'
-}
+// Message
+export const MSG_TEST = 'Test Purposes'
+export const MSG_SUCCESS = 'Action completed successfully!'
+export const MSG_FAIL = 'Action failed!'
+export const MSG_WARNING = 'Warning, be careful!'
+// Colors
+export const COLOR_GREEN = 'positive'
+export const COLOR_RED = 'negative'
+export const COLOR_YELLOW = 'warning'
+export const COLOR_SKY_BLUE = 'info'
+export const COLOR_GREY = 'grey-8'
+export const COLOR_PURPLE = 'purple'
+export const COLOR_TEAL = 'teal'
+// Icon
+export const ICON_THUMB_UP = 'thumb_up'
+export const ICON_WARNING = 'warning'
+export const ICON_INFO = 'info'
+// Position
+export const POS_TOP_LEFT = 'top-left'
+export const POS_TOP = 'top'
+export const POS_TOP_RIGHT = 'top-right'
+export const POS_LEFT = 'left'
+export const POS_CENTER = 'center'
+export const POS_RIGHT = 'right'
+export const POS_BOTTOM_LEFT = 'bottom-left'
+export const POS_BOTTOM = 'bottom'
+export const POS_BOTTOM_RIGHT = 'bottom-right'
