@@ -2,11 +2,16 @@
 import { ref } from 'vue'
 import { basicMsg } from '../plugins/Notify'
 import * as ConstantsNotify from '../constants/ConstantsNotify'
+import GoogleMaps from 'src/components/GoogleMaps.vue'
 
 const leftDrawerOpen = ref(false)
 
 function message () {
-  basicMsg(ConstantsNotify.MSG_TEST, ConstantsNotify.ICON_INFO, ConstantsNotify.COLOR_SKY_BLUE, ConstantsNotify.POS_TOP, 1000)
+  basicMsg(ConstantsNotify.MSG_TEST,
+    ConstantsNotify.ICON_INFO,
+    ConstantsNotify.COLOR_SKY_BLUE,
+    ConstantsNotify.POS_TOP,
+    ConstantsNotify.TIME_ONE_SEC)
 }
 </script>
 
@@ -99,7 +104,7 @@ function message () {
 
     <q-page-container>
       <keep-alive>
-        <router-view/>
+        <GoogleMaps/>
       </keep-alive>
     </q-page-container>
   </q-layout>

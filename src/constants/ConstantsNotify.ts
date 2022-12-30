@@ -25,3 +25,7 @@ export const POS_RIGHT = 'right'
 export const POS_BOTTOM_LEFT = 'bottom-left'
 export const POS_BOTTOM = 'bottom'
 export const POS_BOTTOM_RIGHT = 'bottom-right'
+// Time
+export const TIME_ONE_SEC = 1000
+export const TIME_HALF_ONE_SEC = 500
+export const TIME_TWO_SEC = 2000
